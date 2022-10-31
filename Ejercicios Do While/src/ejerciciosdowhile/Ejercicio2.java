@@ -1,15 +1,17 @@
 package ejerciciosdowhile;
 
-public class Ejercicio1 {
+public class Ejercicio2 {
 
 	public static void main(String[] args) {
 		int i = 0;
 		
 		do {
 			i++;
-			System.out.println(i);
+			if(i%2==0) {
+				System.out.println(i);
+			}
 		}
-		while(i<=19);
+		while(i<=199);
 
 	}
 
