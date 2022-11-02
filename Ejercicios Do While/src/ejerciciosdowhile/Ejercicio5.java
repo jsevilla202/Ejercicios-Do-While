@@ -35,10 +35,15 @@ public class Ejercicio5 {
 				aleatorio = (int) Math.floor(Math.random() * (max - min) + min);
 			}
 			//Si el usuario introduce 1, el número mostrado será menor que el pensado
-			if(n==1) {
+			else if(n==1) {
 				min = (int) Math.ceil(aleatorio);
 				aleatorio = (int) Math.floor(Math.random() * (max - min) + min);
 			}
+			
+			else if(n!=2) {
+				System.out.println("Instrucción no valida");
+			}
+			
 			
 			/*
 			 * Usar Math.ceil es para indicar el número más alto e ir reduciendo el rango
